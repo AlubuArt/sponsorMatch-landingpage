@@ -16,7 +16,7 @@ const Hero = () => {
                 <h2>der gør sponsorarbejdet lettere ved at samle alt et sted!</h2>
             </div>
             <div className="hero-img">
-                <img src={heroImage} className="hero-img"></img>
+                <img src={heroImage} className="hero-img" alt=""></img>
             </div>
             <div>
                 <p>Kom igang med det samme helt gratis -  og få med det samme 3 forslag til nye sponsorer som passer ind i din forening</p>

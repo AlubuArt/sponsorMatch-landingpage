@@ -1,0 +1,88 @@
+div {
+    align-items: center;
+    text-align: center;
+}
+
+.container-fluid {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-family: 'open sans';
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.vp-1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.vp-2 {
+    background: rgb(0,144,221);
+    background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.vp-2 h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.img-hands {
+    width: 100%;
+    
+}
+
+.list-of-functions {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.list-of-functions h2 {
+    padding: 1px;
+}
+
+.img-desktop {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.container .hero-button {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.vp-icons-col {
+    background: rgb(0,144,221);
+    background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
+    color: white;
+    margin-top: 40px;
+   
+
+}
+
+
+
+.vp-icons {
+    background: transparent;
+    width: 100px;
+    padding-top: 40px;
+}
+
+
+
+
+.functions-section-end-text h1{
+
+    color: rgba(0,72,111,1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-weight: lighter;
+
+}
+
