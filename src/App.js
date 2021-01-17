@@ -4,6 +4,7 @@ import LandingPageHeader from './sections/header/header.js';
 import FunctionsSection from './sections/functions/functions-section.js'
 import Hero from './sections/hero/hero.js';
 import Misson from './sections/mission/mission.js';
+import OmOs from './sections/om-os/om-os.js';
 import CTA1 from './sections/callToAction/cta-1.js';
 
 import {Container } from 'react-bootstrap'
@@ -18,6 +19,7 @@ function App() {
       <FunctionsSection />
       <Misson />
       <CTA1 />
+      <OmOs />
     </div>
     
     
