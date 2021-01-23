@@ -11,7 +11,7 @@ const OmOs = () => {
 
     return (
 
-        <Container fluid>
+        <Container fluid className="om-os-section"> 
             <Row >
                 <Col className="om-os-container">
                     <h1>

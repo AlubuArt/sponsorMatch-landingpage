@@ -16,7 +16,7 @@ const FunctionsSection = () => {
 
 
     return (
-        <Container fluid>
+        <Container fluid className="functions-section">
             <Row className="vp-1">
                 <Col>
                     <h2>{ValueProp1}</h2>

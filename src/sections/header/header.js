@@ -16,15 +16,15 @@ const LandingPageHeader = () => {
 
     return (
         <div className="main">
-            <Navbar fluid  sticky="top" className="nav">
+            <Navbar fluid  fixed="top" className="nav">
                 <Col xs="2">
                     <Navbar.Brand  sm="2"as="IMG" src={logo}>Logo</Navbar.Brand>
                 </Col>
                 <Col xs="8">
                     <Nav> 
-                        <Nav.Link>Platformen</Nav.Link>
-                        <Nav.Link>Vores Mission</Nav.Link>
-                        <Nav.Link>Om Os</Nav.Link>
+                        <Link to="functions-section" spy={true} smooth={true} offset={-50} duration={500} >Platformen</Link>
+                        <Link to="mission-section" spy={true} smooth={true} offset={-50} duration={500}>Vores Mission</Link>
+                        <Link to="om-os-section" spy={true} smooth={true} offset={0} duration={500}>Om Os</Link>
                     
                     </Nav>
                 </Col>

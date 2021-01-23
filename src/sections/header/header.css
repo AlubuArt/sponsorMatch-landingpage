@@ -9,8 +9,7 @@ img {
 .navbar {
     background-color: rgb(255, 255, 255);
     padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+    
     
 
 }
@@ -29,7 +28,7 @@ img {
     margin-right: 5px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav a{
     padding: 5px;
 }
 
@@ -41,7 +40,7 @@ img {
     width: auto;
 }
 
-.nav-link {
+.nav a {
     font-size: 11px;
     
 }

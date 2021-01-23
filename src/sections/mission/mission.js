@@ -12,10 +12,11 @@ import './mission.css';
 const Mission = () => {
 
     return (
-        <Container fluid>
+        <Container fluid className="mission-section">
             <Row className="mission-container">
                 <Col >
                     <img className="sponsormatch-logo" src={Logo} alt="sponsormatch logo hvid"></img>
+                    <h1>Missionen</h1>
                     <h2>{MissionText}</h2>
                 </Col>
             </Row>
