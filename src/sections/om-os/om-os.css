@@ -2,6 +2,7 @@
     background: rgb(0,144,221);
     background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
     margin-top: 70px;
+    
 }
 
 .om-os-container h1 {
@@ -22,5 +23,22 @@
 
 }
 
+.profile-pictures {
+    padding-top: 50px;
+}
 
+.profile-pictures > img {
+    width: 150px;
+    
+}
+
+.profile-title {
+    font-weight: bold;
+    color: rgba(0,72,111,1);
+}
+
+.profile-description {
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
 
