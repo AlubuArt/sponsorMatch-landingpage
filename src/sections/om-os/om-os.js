@@ -1,8 +1,8 @@
 import react from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Button} from 'react-bootstrap';
 import './om-os.css';
 import profilePeter from  '../../media/profilePIctureHeader.png';
-
+import {ProfileTextJacob, ProfileTextPeter, ProfileTextKristoffer} from '../../text/text.js'
 
 
 
@@ -20,23 +20,29 @@ const OmOs = () => {
                     </h1>
                     <h2>og hvorfor vi kan styrke foreningsdanmark</h2>
                 </Col>
-
             </Row>
             <Row>
                 <Col className="profile-pictures">
                     <img  src={profilePeter} alt=""></img>
                     < h2 className="profile-title">Peter Overby, Co-founder & CEO</h2>
-                    <p className="profile-description">Med flere års erfaring fra DBU som klubudvikler og klubkonsulent, har Peter fingeren på pulsen og er en rigtig foreningsmand</p>
+                    <p className="profile-description">{ProfileTextPeter}</p>
                
                     <img  src={profilePeter} alt=""></img>
                     < h2 className="profile-title">Jacob Christensen, Co-founder & CTO</h2>
-                    <p className="profile-description">Med flere års erfaring fra DBU som klubudvikler og klubkonsulent, har Peter fingeren på pulsen og er en rigtig foreningsmand</p>
+                    <p className="profile-description">{ProfileTextJacob}</p>
                 
                     <img  src={profilePeter} alt=""></img>
                     < h2 className="profile-title">Kristoffer, Co-founder & Account Manager</h2>
-                    <p className="profile-description">Med flere års erfaring fra DBU som klubudvikler og klubkonsulent, har Peter fingeren på pulsen og er en rigtig foreningsmand</p>
+                    <p className="profile-description">{ProfileTextKristoffer}</p>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                <Button className="hero-button">Kontakt os for at høre nærmere</Button>
+                   
+                </Col>
+            </Row>
+
         </Container>
     )
 }

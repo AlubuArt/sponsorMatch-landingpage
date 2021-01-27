@@ -7,3 +7,6 @@ export const ValueProp5 = "Individuelle sponsor og event oplæg som udsendes dir
 export const ValueProp6 = "Sparring og rådgivning til de sponsoransvarlige i foreningen, i form af blogindlæg, tips og tricks, videoguides, sponsorstrategier og et stærkt community";
 export const MissionText = "Vi gør det spændende og let for foreningerne at søge og finde nye samarbejdspartnere og sponsorer, samt ikke mindst ar arbejde struktureret og værdiskabende med disse. Og vi ønsker at tilføre foreningerne den nødvendige viden og læring om udvikling af værdiskabende sponsor og samarbejdsaftaler, så det bliver sjovere og lettere at arbejde med sponsorater.";
 export const CTAText = "-få samtidig 3 forslag til nye sponsorer som passer ind i jeres forening!";
+export const ProfileTextPeter = "Med flere års erfaring fra DBU som klubudvikler og klubkonsulent, har Peter fingeren på pulsen og er en rigtig foreningsmand"
+export const ProfileTextJacob = "Med flere års erfaring fra DBU som klubudvikler og klubkonsulent, har Peter fingeren på pulsen og er en rigtig foreningsmand"
+export const ProfileTextKristoffer ="Med flere års erfaring fra DBU som klubudvikler og klubkonsulent, har Peter fingeren på pulsen og er en rigtig foreningsmand"

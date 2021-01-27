@@ -15,10 +15,10 @@ import logo from '../../media/sponsormatch_logo_navn_100px.png';
 const LandingPageHeader = () => {
 
     return (
-        <div className="main">
-            <Navbar fluid  fixed="top" className="nav">
+        
+            <Navbar fluid fixed="top" className="nav">
                 <Col xs="2">
-                    <Navbar.Brand  sm="2"as="IMG" src={logo}>Logo</Navbar.Brand>
+                    <Navbar.Brand  sm="2" as="IMG" src={logo}>Logo</Navbar.Brand>
                 </Col>
                 <Col xs="8">
                     <Nav> 
@@ -29,11 +29,12 @@ const LandingPageHeader = () => {
                     </Nav>
                 </Col>
                 <Col xs="2">
-                    <Button>Prøv Gratis</Button>
+                    <Button className="header-button">Prøv Gratis</Button>
                 </Col>
             </Navbar>
+        
        
-            </div>
+            
                 
                         
     )

@@ -1,0 +1,14 @@
+.footer-container {
+    background: rgb(0,144,221);
+    background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
+    margin-top: 70px;
+    
+
+}
+
+.footer-container  p {
+    color: white;
+    font-weight: lighter;
+    
+
+}
