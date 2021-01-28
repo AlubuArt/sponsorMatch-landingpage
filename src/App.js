@@ -7,6 +7,10 @@ import Misson from './sections/mission/mission.js';
 import OmOs from './sections/om-os/om-os.js';
 import CTA1 from './sections/callToAction/cta-1.js';
 import Footer from './sections/footer/footer.js';
+import ValueProp1 from './sections/valueProp/valueProp1.js';
+import ValueProp2 from './sections/valueProp/valueProp2.js';
+import ValueProp3 from './sections/valueProp/valueProp3.js';
+
 
 
 
@@ -17,6 +21,9 @@ function App() {
     <>
       <LandingPageHeader />
       <Hero />
+      <ValueProp1 />
+      <ValueProp2 />
+      <ValueProp3 />
       <FunctionsSection />
       <Misson />
       <CTA1 />

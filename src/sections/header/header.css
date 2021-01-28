@@ -9,9 +9,6 @@ img {
 .navbar {
     background-color: rgb(255, 255, 255);
     padding: 5px;
-    
-    
-
 }
 
 .navbar-nav {
@@ -36,9 +33,7 @@ img {
     background-color: #00AC27;
     border: none;
     display: inline;
-    
     width: auto;
-   
 }
 
 .header-button {
@@ -62,5 +57,52 @@ img {
     padding-left: 0px;
 
 }
+
+.col {
+    padding-left: 0px;
+    padding-right: 0px;
+    
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    img {
+        width: 100px;
+        background: white;
+    }
+
+    .header-button {
+       padding: 0.5rem 1rem;
+       font-size: 14px;
+       
+   }
+
+   .nav a {
+        font-size: 14px;
+        align-self: end;
+    
+    }
+
+    .navbar-light .navbar-nav a{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+        
+    }
+
+    
+     
+
+    
+
+}
+
 
 

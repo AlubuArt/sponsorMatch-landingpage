@@ -10,9 +10,7 @@
     font-size: 54px;
     font-weight: normal;
     padding-top: 60px;
-
-
-    
+  
 }
 
 .om-os-container h2 {
@@ -35,6 +33,7 @@
 .profile-title {
     font-weight: bold;
     color: rgba(0,72,111,1);
+    font-family: "Open Sans";
 }
 
 .profile-description {

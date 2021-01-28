@@ -3,15 +3,10 @@ div {
     text-align: center;
 }
 
-.container-fluid {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
-    
-    justify-content: center;
-    align-items: center;
-    
-  }
+.row {
+    margin-left: 0px;
+    margin-right: 0px;;
+}
 
 .vp-1 {
     margin-top: 40px;
@@ -21,16 +16,21 @@ div {
 .vp-2 {
     background: rgb(0,144,221);
     background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    display: block;
 }
 
 .vp-2 h2 {
-    padding-left: 10px;
-    padding-right: 10px;
+    
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;    
 }
 
+.vp-3 {
+    display: block;
+}
 
 .img-hands {
     width: 100%;
@@ -63,11 +63,8 @@ div {
     color: white;
     margin-top: 40px;
     padding-bottom: 40px;
-   
 
 }
-
-
 
 .vp-icons {
     background: transparent;
@@ -75,9 +72,6 @@ div {
     padding-top: 40px;
     
 }
-
-
-
 
 .functions-section-end-text h1{
 
@@ -88,3 +82,71 @@ div {
 
 }
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    .vp-1 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+
+    }
+
+    .vp-1  h1 {
+        font-size: 70px;
+        color: rgba(0,72,111,1);
+    }
+
+    .vp-2 {
+        display: flex ;
+        flex-direction: row-reverse;
+        background: rgb(0,144,221);
+        background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
+    }
+
+    .vp-2 h2 {
+        padding-left: 110px;
+        padding-right: 110px;
+        font-size: 28px;
+        
+    }
+
+    .vp-3 {
+        display: flex;
+        margin-top: 100px;
+        
+
+    }
+
+    .img-hands {
+        height:  100%;
+    }
+
+    .list-of-functions {
+        height: 200px;
+        width: auto;
+        margin-left: 100px;
+
+    }
+
+    .img-desktop {
+        height: 400px;
+        width: auto;
+    }
+
+    
+    .valueProp3 .hero-button {
+        margin-bottom: 100px;
+
+    }
+
+
+    
+}
