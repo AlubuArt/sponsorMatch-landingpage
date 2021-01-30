@@ -1,7 +1,7 @@
 export const ValuePropText1 = "En platform til sponsorsøgning, salg og administrationen af sponsorater, som giver jeres forening en totalløsning der gør sponsorarbejdet lettere ved at samle alt et sted.";
 export const UdvikletTil = "Udviklet specielt til de danske";
 export const ValuePropText2 = "Udskift gamle og ineffektive rutiner og værktøjer med digitale og automatiseret processer, som forenkler og effektivisere arbejdet og giver jeres forening mere tilfredse medlemmer, frivillige og sponsorer og dermed en øget indtægt som i kan bruge i foreningen.";
-export const ValueProp3 = "Opret automatiske flotte og sælgende sponsortilbud og send dem til jeres sponsorer. Administrer nemt og enkelt alle foreningens sponsorater";
+export const ValueProp3 = "Automatisk oprettet flotte og sælgende sponsortilbud og send dem til jeres sponsorer. Administrer nemt og enkelt alle foreningens sponsorater";
 export const ValueProp4 = "Danmarks eneste online sponsoruddannelse specielt lavet til sponsoransvarlige i breddeforeninger.";
 export const ValueProp5 = "Individuelle sponsor og event oplæg som udsendes direkte til den enkelte samarbejdspartner og sponsor";
 export const ValueProp6 = "Sparring og rådgivning til de sponsoransvarlige i foreningen, i form af blogindlæg, tips og tricks, videoguides, sponsorstrategier og et stærkt community";

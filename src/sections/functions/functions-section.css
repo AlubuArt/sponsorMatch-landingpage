@@ -1,5 +1,5 @@
 div {
-    align-items: center;
+    
     text-align: center;
 }
 
@@ -58,18 +58,31 @@ div {
 }
 
 .vp-icons-col {
-    background: rgb(0,144,221);
-    background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
+    
     color: white;
     margin-top: 40px;
     padding-bottom: 40px;
 
 }
 
+
+
 .vp-icons {
     background: transparent;
     width: 100px;
     padding-top: 40px;
+    
+}
+
+.functions-section {
+    background: rgb(0,144,221);
+    background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
+    text-align: center;
+
+}
+
+.functions-section-text {
+    color:white;
     
 }
 
@@ -79,6 +92,7 @@ div {
     padding-top: 70px;
     padding-bottom: 70px;
     font-weight: lighter;
+    
 
 }
 
@@ -147,6 +161,28 @@ div {
 
     }
 
+    .vp-icons-col {
+        display: flex;
+        padding-left: 50px;
+        padding-right: 50px;
+        vertical-align: top;
+        padding-top:10px;
+        
+    }
+    .vp-icons-col h2 {
+        padding-bottom:10px;
+        font-size: 16px;
+    }
 
-    
-}
+    .vp-icons {
+        vertical-align: top;
+    }
+
+    .functions-section-end-text h1 {
+        font-size: 100px;
+        padding-top: 170px;
+        padding-bottom: 170px;
+        font-weight: lighter;
+    }
+
+}    

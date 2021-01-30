@@ -10,6 +10,8 @@ import Footer from './sections/footer/footer.js';
 import ValueProp1 from './sections/valueProp/valueProp1.js';
 import ValueProp2 from './sections/valueProp/valueProp2.js';
 import ValueProp3 from './sections/valueProp/valueProp3.js';
+import ValueProp4 from './sections/valueProp/valueProp4.js';
+
 
 
 
@@ -23,8 +25,10 @@ function App() {
       <Hero />
       <ValueProp1 />
       <ValueProp2 />
-      <ValueProp3 />
+      <ValueProp4 />
       <FunctionsSection />
+      <ValueProp3 />
+      
       <Misson />
       <CTA1 />
       <OmOs />

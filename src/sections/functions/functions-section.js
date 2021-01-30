@@ -17,33 +17,31 @@ const FunctionsSection = () => {
 
     return (
         <Container fluid className="functions-section">
-
             
             
-            <Row>
-                <Col className="vp-icons-col">
-                    <Image src={Icon1} className="vp-icons"></Image>
-                    <h2>{ValueProp3}</h2>
-                    <Image src={Icon2} className="vp-icons"></Image>
-                    <h2>{ValueProp4}</h2>
-                    <Image src={Icon3} className="vp-icons"></Image>
-                    <h2>{ValueProp5}</h2>
-                    <Image src={Icon4} className="vp-icons"></Image>
-                    <h2>{ValueProp6}</h2>
+            <Row className="vp-icons-row">
+               
+                <Col className="vp-icons-col" >
+                    <Col lg="3">
+                        <Image src={Icon1}  className="vp-icons"></Image>
+                        <h2>{ValueProp3}</h2>
+                    </Col>    
+                    <Col lg="3">
+                        <Image src={Icon2} className="vp-icons"></Image>
+                        <h2>{ValueProp4}</h2>
+                    </Col>
+                    <Col lg="3">
+                        <Image src={Icon3} className="vp-icons"></Image>
+                        <h2>{ValueProp5}</h2>
+                    </Col>
+                    <Col lg="3">
+                        <Image src={Icon4} className="vp-icons"></Image>
+                        <h2>{ValueProp6}</h2>
+                    </Col>
 
                 </Col>
             </Row>
-            <Row>
-                <Col className="functions-section-end-text">
-                    <h1>sammen sikre vi foreningsdanmark</h1>
-                </Col>
-            </Row>
-
-                
-            
-            
-            
-                
+     
         </Container>
     )
 }
