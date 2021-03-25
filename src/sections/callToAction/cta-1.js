@@ -21,7 +21,7 @@ const CTA1 = () => {
                     <p>- Oprettelse af jeres eksisterende sponsorer</p>
                     <p>- Flot specialdesign sponsortilbud skabalon</p>
                     <p>- Personlig gennemgang af platformen med jer</p>
-                    <p>- Oprettelse af foreningen og overførelse af eksisterende sponsorkartotek mm. </p>
+                    <p>- Oprettelse af foreningen og overførelse af <br></br>eksisterende sponsorkartotek mm. </p>
                 </div>
                 </Col>
             

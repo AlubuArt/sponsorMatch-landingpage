@@ -29,18 +29,18 @@
 
     .CTA-header {
         margin: auto;
+        text-align: center;
     }
 
     .CTA-header h2 {
-        
         font-size: 30px;
-
     }
 
     .CTA-list p {
         text-align: center;
         padding: 5px;
         font-size: 18px;
+        margin: 0px;
 
     }
 };
