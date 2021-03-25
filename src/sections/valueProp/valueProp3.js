@@ -22,7 +22,7 @@ const ValueProp3 =() => {
             </Row>
             <Row>
                 <Col>
-                    <Button className="hero-button">Prøv SponsorMatch - GRATIS</Button>
+                    <Button className="hero-button">Opret forening gratis</Button>
                 </Col>
             </Row>
 

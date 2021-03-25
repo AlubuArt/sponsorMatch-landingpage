@@ -60,6 +60,7 @@ div {
 .container .hero-button {
     margin-bottom: 30px;
     margin-top: 10px;
+    padding: 0.5rem 1rem;
 }
 
 .vp-icons-col {
@@ -106,6 +107,13 @@ div {
     padding-right: 0px;
 }
 
+.valueProp3 .hero-button {
+    
+    padding: 0.5rem 3.5rem;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 55%);
+
+}
+
 
 
 @media only screen and (min-width: 1200px) {
@@ -147,6 +155,7 @@ div {
 
     .img-hands {
         height:  100%;
+        margin: 0px;
     }
 
     .list-of-functions {
@@ -171,6 +180,7 @@ div {
     
     .valueProp3 .hero-button {
         margin-bottom: 100px;
+        
 
     }
 
@@ -199,3 +209,91 @@ div {
     }
 
 }    
+
+@media only screen and (min-width: 1900px) {
+
+    .vp-1 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+
+    }
+
+    .vp-1  h1 {
+        font-size: 70px;
+        color: rgba(0,72,111,1);
+    }
+
+    .vp-2 {
+        display: flex ;
+        flex-direction: row-reverse;
+        background: rgb(0,144,221);
+        background: linear-gradient(180deg, rgba(0,144,221,1) 0%, rgba(0,72,111,1) 100%);
+    }
+
+    .vp-2 h2 {
+        font-size: 40px;
+        padding-top: 120px;
+        
+    }
+
+    .vp-3 {
+        display: flex;
+        margin-top: 100px;
+        
+
+    }
+
+    .img-hands {
+        height:  100%;
+    }
+
+    .list-of-functions {
+        height: 300px;
+        margin-top: 100px;
+
+    }
+
+    .img-desktop {
+        height: 500px;
+        width: auto;
+        margin-top: 50px;
+        
+    }
+
+    .img-desktop-cta {
+        height: 600px;
+        width: auto;
+        margin-top: 30px;
+    }
+    
+    .valueProp3 .hero-button {
+        margin-bottom: 100px;
+
+    }
+
+    .vp-icons-col {
+        
+        padding-top:50px;
+        padding-bottom: 100px;
+        
+    }
+    .vp-icons-col h2 {
+        
+        font-size: 26px;
+    }
+
+    .vp-icons {
+        
+        width: 120px;
+    }
+
+    .functions-section-end-text h1 {
+        font-size: 100px;
+        padding-top: 170px;
+        padding-bottom: 170px;
+        font-weight: lighter;
+    }
+
+} 

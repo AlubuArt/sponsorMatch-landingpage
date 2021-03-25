@@ -38,7 +38,7 @@ const OmOs = () => {
             </Row>
             <Row>
                 <Col>
-                <Button className="hero-button">Kontakt os for at høre nærmere</Button>
+                <Button className="hero-button">Kontakt os og hør nærmere</Button>
                    
                 </Col>
             </Row>

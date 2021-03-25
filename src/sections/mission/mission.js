@@ -16,7 +16,7 @@ const Mission = () => {
             <Row className="mission-container">
                 <Col >
                     <img className="sponsormatch-logo" src={Logo} alt="sponsormatch logo hvid"></img>
-                    <h1>Missionen</h1>
+                    <h1>mission</h1>
                     <h2>{MissionText}</h2>
                 </Col>
             </Row>

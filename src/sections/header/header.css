@@ -11,10 +11,6 @@ img {
     padding: 5px;
 }
 
-.navbar-nav {
-    align-items: center;
-    justify-content: center;
-}
 
 .nav {
     justify-content: center;
@@ -34,12 +30,14 @@ img {
     border: none;
     display: inline;
     width: auto;
+    padding: 0.5rem 3.5rem;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 55%);
 }
 
 .header-button {
-     padding: 0.3rem 0.5rem;
+    padding: 0.5rem 3.5rem;
     font-size: 9px;
-    display: inline;
+    display: none;
 }
 
 .nav a {
@@ -53,7 +51,7 @@ img {
 }
 
 .col-8 {
-    padding-right: 0px;
+    
     padding-left: 0px;
 
 }
@@ -74,8 +72,9 @@ img {
     }
 
     .header-button {
-       padding: 0.5rem 1rem;
+       
        font-size: 14px;
+       display: inline;
        
    }
 
@@ -95,13 +94,45 @@ img {
         justify-content: center;
         text-align: right;
         
+    } 
+
+}
+
+
+@media only screen and (min-width: 1900px)  {
+
+    img {
+        width: 120px;
+        background: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
     }
 
-    
-     
+    .header-button {
+       
+       font-size: 16px;
+       display: inline;
+       
+   }
 
+   .nav a {
+        font-size: 18px;
+        align-self: end;
     
+    }
 
+    .navbar-light .navbar-nav a{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .navbar-nav {
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+        
+    }
 }
 
 

@@ -14,8 +14,8 @@ const CTA1 = () => {
         <Container fluid>
             <Row>
                 <Col lg="6" className="CTA-header">
-                <h2>Prøv platformen idag! <br></br>
-                Vi hjælper med alt det praktiske.</h2>
+                    <h2>Prøv platformen idag! <br></br>
+                    Vi hjælper med alt det praktiske.</h2>
                 
                 <div className="CTA-list">
                     <p>- Oprettelse af jeres eksisterende sponsorer</p>
@@ -30,7 +30,7 @@ const CTA1 = () => {
                     <Image src={heroImage} className="img-desktop-cta"></Image>
                 
                     <h2>{CTAText}</h2> 
-                    <Button className="hero-button">Prøv SponsorMatch - GRATIS</Button>
+                    <Button className="hero-button">Opret forening gratis</Button>
                 </Col>
             
                    
