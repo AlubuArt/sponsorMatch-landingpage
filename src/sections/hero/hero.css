@@ -51,6 +51,7 @@ p {
         width: auto;
         background: transparent;
         height: 420px;
+        padding-top: 20px
     }
 
     .hero-button {

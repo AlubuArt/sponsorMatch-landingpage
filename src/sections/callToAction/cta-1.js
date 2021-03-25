@@ -27,7 +27,7 @@ const CTA1 = () => {
             
             
                 <Col lg="6" className="CTA-text">
-                    <Image src={heroImage} className="img-desktop"></Image>
+                    <Image src={heroImage} className="img-desktop-cta"></Image>
                 
                     <h2>{CTAText}</h2> 
                     <Button className="hero-button">Prøv SponsorMatch - GRATIS</Button>
