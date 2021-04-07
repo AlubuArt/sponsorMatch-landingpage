@@ -13,8 +13,8 @@ It is hosted through Firebase Hosting.
 The design of the website was made with Adobe XD for both desktop and mobile.
 It was designed for mobile first and utilize media queries for responsivenes.
 
+![desktop_website](https://user-images.githubusercontent.com/57637214/113915978-b8459080-97df-11eb-89cd-942622bafc6f.png)
 
-![Uploading desktop_website.png…]()
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
