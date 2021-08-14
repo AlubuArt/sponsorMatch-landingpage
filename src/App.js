@@ -13,11 +13,6 @@ import ValueProp3 from './sections/valueProp/valueProp3.js';
 import ValueProp4 from './sections/valueProp/valueProp4.js';
 
 
-
-
-
-
-
 function App() {
   return (
     <>
@@ -27,15 +22,13 @@ function App() {
       <ValueProp2 />
       <ValueProp4 />
       <FunctionsSection />
-      <ValueProp3 />
-      
+      <ValueProp3 />      
       <Misson />
       <CTA1 />
       <OmOs />
       <Footer />
     </>
-    
-    
+       
   );
 }
 
