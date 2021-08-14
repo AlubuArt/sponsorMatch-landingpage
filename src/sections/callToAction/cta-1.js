@@ -9,6 +9,8 @@ import './cta.css';
 
 const CTA1 = () => {
 
+    
+
 
     return (
         <Container fluid>
@@ -30,7 +32,7 @@ const CTA1 = () => {
                     <Image src={heroImage} className="img-desktop-cta"></Image>
                 
                     <h2>{CTAText}</h2> 
-                    <Button className="hero-button">Opret forening gratis</Button>
+                    <Button className="hero-button" onClick={event => window.location.href="https://sponsormatchbeta.firebaseapp.com/pages/signup"}>Opret forening gratis</Button>
                 </Col>
             
                    

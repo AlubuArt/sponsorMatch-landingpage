@@ -22,7 +22,7 @@ const ValueProp3 =() => {
             </Row>
             <Row>
                 <Col>
-                    <Button className="hero-button">Opret forening gratis</Button>
+                    <Button onClick={event => window.location.href="https://sponsormatchbeta.firebaseapp.com/pages/signup"} className="hero-button"  >Opret forening gratis</Button>
                 </Col>
             </Row>
 

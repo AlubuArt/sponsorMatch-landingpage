@@ -18,7 +18,7 @@ const Hero = () => {
                 </div> <div>
                     <p>Kom igang med det samme helt gratis -  og få med det samme 3 forslag til nye sponsorer som passer ind i din forening</p>
                 </div>  
-                <Button className="hero-button">Opret forening gratis </Button>
+                <Button className="hero-button" onClick={event => window.location.href="https://sponsormatchbeta.firebaseapp.com/pages/signup"}>Opret forening gratis </Button>
             </Col>
                 <Col>
                 <div className="hero-img">

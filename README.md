@@ -5,7 +5,7 @@ Its purpose is to be visually pleasing and inform the visitor about the SponsorM
 
 ### Techstack
 
-The website is made with React, React Bootstrap and some CSS.
+The website is made with React, React Bootstrap and CSS.
 It is hosted through Firebase Hosting.
 
 ### Design

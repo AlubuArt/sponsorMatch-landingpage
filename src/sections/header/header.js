@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll'
-import {Navbar, Nav, Button, Row, Col, Container} from 'react-bootstrap';
+import {Navbar, Nav, Button, Col} from 'react-bootstrap';
 
 import './header.css';
 
@@ -29,7 +29,7 @@ const LandingPageHeader = () => {
                     </Nav>
                 </Col>
                 <Col xs="2">
-                    <Button className="header-button">Prøv Gratis</Button>
+                    <Button className="header-button" onClick={event => window.location.href="https://sponsormatchbeta.firebaseapp.com/pages/signup"} >Prøv Gratis</Button>
                 </Col>
             </Navbar>
         
